@@ -1,6 +1,6 @@
 provider "google" {
   credentials = file("../security/vm_admin_cred.json") // use your serivce account key
-  project = "rhaven-terraform-lab"
+  project = "sodium-hangar-322720" // project id not the name
   region = "us-west1"
   zone = "us-west1-c"
 }
