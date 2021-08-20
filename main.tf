@@ -7,10 +7,10 @@ provider "google" {
 
 resource "google_compute_instance" "rhaven_lab" {
     name            = "rhaven_lab"
-    machine_type    = "e2-micro"
+    machine_type    = "f1-micro"
     boot_disk {
         initialize_params {
-            image = "Debian GNU/Linux 10"
+            image = "debian-cloud/debian-9" // VM image
         }
     }
     network_interface {
