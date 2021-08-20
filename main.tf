@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("../security/sodium-hangar-322720-7490851b18ef.json") // use your serivce account key
+  credentials = file("../security/vm_admin_cred.json") // use your serivce account key
   project = "rhaven-terraform-lab"
   region = "us-west1"
   zone = "us-west1-c"
