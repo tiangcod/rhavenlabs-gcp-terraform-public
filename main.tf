@@ -5,8 +5,8 @@ provider "google" {
   zone = "us-west1-c"
 }
 
-resource "google_compute_instance" "rhaven_lab_server" {
-    name            = "rhaven_lab"
+resource "google_compute_instance" "rhaven-lab-server" {
+    name            = "rhaven-lab-vm1"
     machine_type    = "f1-micro"
     boot_disk {
         initialize_params {
